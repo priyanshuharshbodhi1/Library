@@ -1,5 +1,5 @@
 .container{
-    background-color: rgb(109, 116, 212);
+    background-color: rgb(55, 67, 245);
 }
 .heading{
     font-family: "Montserrat", sans-serif;
@@ -10,3 +10,51 @@ h2{
 body{
     background-color: rgb(221, 224, 222);
 }
+
+
+/*form styling*/
+.container3 {
+    max-width: 400px;
+    margin: 2rem auto;
+    padding: 20px;
+    background-color: #f2f2f2;
+    border-radius: 8px;
+  }
+
+  .form-group {
+    margin-bottom: 1 rem;
+  }
+
+  .form-group label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+
+  .form-group input[type="text"],
+  .form-group input[type="number"],
+  .form-group input[type="checkbox"] {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+
+  .form-group input[type="checkbox"] {
+    width: auto;
+    margin-top: 5px;
+  }
+
+  .btn-save {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 16px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    
+  }
+
+  .btn-save:hover {
+    background-color: #6dad70;
+  }
