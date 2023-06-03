@@ -58,3 +58,39 @@ body{
   .btn-save:hover {
     background-color: #6dad70;
   }
+
+/*for card*/
+.card-header {
+  background-color: #f8f9fa;
+  padding: 10px;
+  border-bottom: 1px solid #dee2e6;
+}
+
+.title {
+  font-size: 24px;
+  margin: 0;
+}
+
+.author {
+  font-size: 18px;
+  margin: 5px 0;
+  color: #6c757d;
+}
+
+.card-body {
+  padding: 10px;
+}
+
+p {
+  margin: 0;
+}
+
+.read-status {
+  font-weight: bold;
+  color: #28a745;
+}
+
+.book-card{
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+}
